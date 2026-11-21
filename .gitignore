@@ -1,0 +1,74 @@
+# ============================================================
+# Credenciales y variables de entorno
+# ============================================================
+.env
+.env.local
+.env.*.local
+*.env
+!.env.example
+
+# Archivos de configuracion con credenciales (iOS)
+Secrets.xcconfig
+src/**/Secrets.xcconfig
+
+# ============================================================
+# Dependencias
+# ============================================================
+# Node.js
+node_modules/
+
+# CocoaPods (iOS)
+Pods/
+src/**/Pods/
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# PHP / Composer
+vendor/
+
+# ============================================================
+# Builds y artefactos de compilacion
+# ============================================================
+build/
+dist/
+DerivedData/
+*.ipa
+*.xcarchive
+
+# ============================================================
+# Xcode - archivos de usuario
+# ============================================================
+*.xcuserdata/
+**/*.xcuserdata/
+xcuserdata/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+
+# ============================================================
+# Archivos de IDE y editores
+# ============================================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ============================================================
+# Logs y temporales
+# ============================================================
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# ============================================================
+# Archivos del sistema operativo
+# ============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
